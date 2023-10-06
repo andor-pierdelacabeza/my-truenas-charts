@@ -1,0 +1,25 @@
+name: tailscale-operator
+description: Tailscale Kubernetes operator
+annotations:
+  title: Tailscale K8s Operator
+type: application
+version: 0.1.0
+apiVersion: v2
+appVersion: 1.50.1
+kubeVersion: '>=1.16.0-0'
+maintainers:
+  - name: andor-pierdelacabeza
+    url: https://pierdelacabeza.com/
+    email: andor@pierdelacabeza.com
+#dependencies:
+#  - name: common
+#    repository: file://../../../common
+#    version: 1.1.1
+home: https://tailscale.com/
+icon: https://avatars.githubusercontent.com/u/48932923
+sources:
+  - https://tailscale.com/
+  - https://github.com/tailscale/tailscale/blob/main/cmd/k8s-operator/manifests/operator.yaml
+keywords:
+  - vpn
+  - tailscale

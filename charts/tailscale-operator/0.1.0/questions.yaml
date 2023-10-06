@@ -1,0 +1,29 @@
+groups:
+  - name: "Tailscale Authentication"
+    description: "Credentials to login in thew Tailscale service"
+
+questions:
+  - variable: tailscaleAuth
+    label: ""
+    group: "Tailscale Authentication"
+    schema:
+      type: dict
+      attrs:
+        - variable: client_id
+          label: Client ID
+          description: |
+            Your Tailscale OAuth Client ID.</br>
+            You need to create that app in the OAuth section of your Tailscale account.
+          schema:
+            type: string
+            default: ""
+            required: true
+        - variable: client_secret
+          label: Client Secret
+          description: |
+            Your Tailscale OAuth Client Secret.</br>
+            You need to create that app in the OAuth section of your Tailscale account.
+          schema:
+            type: string
+            required: true
+            private: true
