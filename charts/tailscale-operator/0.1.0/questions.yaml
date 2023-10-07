@@ -16,7 +16,6 @@ questions:
             You need to create that app in the OAuth section of your Tailscale account.
           schema:
             type: string
-            default: ""
             required: true
         - variable: client_secret
           label: Client Secret
