@@ -3,7 +3,7 @@ description: Tailscale Kubernetes operator
 annotations:
   title: Tailscale K8s Operator
 type: application
-version: 0.1.0
+version: 0.1.1
 apiVersion: v2
 appVersion: 1.50.1
 kubeVersion: '>=1.16.0-0'
